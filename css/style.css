@@ -1,0 +1,148 @@
+h1 {
+    text-align: center;
+}
+
+.forord {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.dreng {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.drikkevarer {
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0px 10px 0px 10px;
+}
+
+section p {
+    width: 600px;
+    font-family: "Oswald-Medium";
+}
+h3 {
+    margin-left: 10%;
+}
+.index {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+@media only screen and (max-width: 1024px) {
+.logo {
+    position: fixed;
+    width: 126px;
+    background: black;
+    padding: 1px 2px 2px 4px;
+}
+.pc .logo {
+    display: none;
+}
+p {
+    
+    }
+header .nav ul {
+    list-style: none;
+}
+
+label {
+    float: right;
+    display: block;
+    cursor: pointer;
+    background: white;
+    z-index: 1;
+}
+.nav {
+    text-align: center;
+    width: 100%;
+    margin: 0 1.875em 5% 0;
+    display: none;
+    background: black
+}
+
+.nav a {
+    display: block;
+    border-bottom: 1px solid red;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 0 50px;
+}
+.nav a:hover {
+    background: #CEE3F6;
+}
+label:hover {
+    background: #CEE3F6;
+}
+#toggle:checked + .nav {
+    display: block;
+}
+}
+
+@media only screen and (min-width: 562px) {
+section p {
+    width: 160px
+}
+}
+
+@media (min-width: 1024px) {
+#mobile {
+    display: none;
+}
+    .logo {
+        position: absolute;
+    }
+.nav {
+    display: block;
+}
+
+header {
+    background-color: aliceblue;
+    width: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    background-color: beige;
+}
+
+.nav {
+    text-align: right;
+    width: 100%;
+    margin-top: 0%;
+    
+}
+    
+.nav a {
+    width: 50%;
+    text-align: center;
+    padding: 0 25px;
+    text-decoration: none;
+    color: burlywood;
+    font-size: 28px;
+    font-weight: bold;
+}
+.nav a:hover {
+    background: #CEE3F6;
+}
+section {
+    margin: 0px 10px 0px 10px;
+}
+section p {
+    width: 300px
+}
+}
